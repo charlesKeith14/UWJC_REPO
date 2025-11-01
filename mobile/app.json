@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "UW–Madison Jewish Connect",
+    "slug": "uwjc",
+    "scheme": "uwjc",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": { "enabled": true },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "edu.wisc.uwjc"
+    },
+    "android": {
+      "adaptiveIcon": { "foregroundImage": "./assets/adaptive-icon.png", "backgroundColor": "#ffffff" },
+      "package": "edu.wisc.uwjc"
+    },
+    "plugins": ["expo-router"],
+    "extra": {
+      "eas": { "projectId": "placeholder-project-id" },
+      "apiBaseUrl": "http://localhost:3000"
+    }
+  }
+}
+
+
